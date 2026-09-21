@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # The same two workloads as `examples/all/values.nix`, written out BY HAND in the grammar
 # underneath — `nixk3s.apps.<name>`, with no nixdev module composed at all.
 #

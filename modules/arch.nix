@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 #
 # Arch backend — exposes the selections as pacman package names.
 #

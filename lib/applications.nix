@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 #
 # The cluster catalogue: what nixdev's cluster-side tools ARE. One group, because the repository
 # genuinely runs one kind of thing here -- a developer's tool with a web face -- and inventing

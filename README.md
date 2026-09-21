@@ -52,7 +52,7 @@ at all.
   lives in nixoffice. The difference is consumption: does a person look at it or only a program?
 - **Database tooling of any kind.** Wire-protocol shells, multi-engine command lines and the
   inspectors that open a database file on disk all belong to
-  [nixdb](https://github.com/julian-corbet/nixdb-corbet-ch), the repository whose subject is
+  [nixdb](https://github.com/corbet-nix/nixdb-corbet-ch), the repository whose subject is
   databases. "A developer uses it" is not the test — by that test this catalogue would swallow half
   the machine.
 
@@ -72,7 +72,7 @@ at all.
 The developer's tools that run in the cluster rather than on a desk are declared with
 `nixdev.applications.<name>`, and this module renders no Kubernetes object of its own: it defines
 into the app grammar published by
-[nixk3s](https://github.com/julian-corbet/nixk3s-corbet-ch), which owns Applications, Namespaces,
+[nixk3s](https://github.com/corbet-nix/nixk3s-corbet-ch), which owns Applications, Namespaces,
 Deployments and Services. Import that grammar alongside this module.
 
 What this repository adds is the half the grammar cannot know — what these particular tools ARE —
@@ -113,11 +113,11 @@ because Arch's distro tooling owns that decision.
 
 ## Related projects
 
-Part of the same independently-usable NixOS module family: [nixfont](https://github.com/julian-corbet/nixfont-corbet-ch)
-(fonts as a shared concern), [nixoffice](https://github.com/julian-corbet/nixoffice-corbet-ch)
-(the documents half of a workstation), [nixprint](https://github.com/julian-corbet/nixprint-corbet-ch)
-(printing declared), and [nixram](https://github.com/julian-corbet/nixram-corbet-ch) (memory-pressure tuning).
+Part of the same independently-usable NixOS module family: [nixfont](https://github.com/corbet-nix/nixfont-corbet-ch)
+(fonts as a shared concern), [nixoffice](https://github.com/corbet-nix/nixoffice-corbet-ch)
+(the documents half of a workstation), [nixprint](https://github.com/corbet-nix/nixprint-corbet-ch)
+(printing declared), and [nixram](https://github.com/corbet-nix/nixram-corbet-ch) (memory-pressure tuning).
 
-## License
+## Licence
 
-MIT License &copy; 2026 Julian Corbet
+Outbound licence is `MIT OR Apache-2.0`. See `LICENSE-MIT` and `LICENSE-APACHE`; every source file carries `SPDX-License-Identifier: MIT OR Apache-2.0`.

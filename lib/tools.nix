@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 #
 # The tool catalogue: one entry per selectable tool, naming it on each platform.
 #
@@ -59,7 +60,7 @@
   };
 
   # ── Remote object storage ───────────────────────────────────────────────────────────────────
-  # `rclone` is NOT here. It belongs to nixcloud (github:julian-corbet/nixcloud-corbet-ch), which
+  # `rclone` is NOT here. It belongs to nixcloud (github:corbet-nix/nixcloud-corbet-ch), which
   # declares its own `pkgs.rclone` wherever `nixcloud.enable = true` -- the same package its FUSE
   # mount units already invoke by store path. Do not re-add it to this table.
   storage = {
@@ -75,7 +76,7 @@
   # log/event datasets, not objects, and is never addressed by bucket/key.
   # NOT a database tool of any kind: every one of those -- the wire shells, the multi-engine
   # command lines and the local FILE inspectors alike -- is catalogued in nixdb
-  # (github:julian-corbet/nixdb-corbet-ch), the repository whose subject is databases. Axiom has no
+  # (github:corbet-nix/nixdb-corbet-ch), the repository whose subject is databases. Axiom has no
   # database at either end: it is a remote SaaS query surface over log/event datasets. Hence its
   # own group.
   observability = {

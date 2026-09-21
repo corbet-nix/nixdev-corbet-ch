@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 {
   description = "nixdev — the operator's toolbox: cloud CLIs, IaC, Kubernetes clients and language toolchains, declared per host, plus the developer's own tools that run in the cluster";
 
@@ -25,7 +26,7 @@
     # cluster module through the REAL grammar and assert what comes out -- rather than asserting
     # that a module which merely mentions `nixk3s.apps` evaluates.
     nixk3s = {
-      url = "git+https://github.com/julian-corbet/nixk3s-corbet-ch";
+      url = "git+https://github.com/corbet-nix/nixk3s-corbet-ch";
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.nixidy.follows = "nixidy";
     };

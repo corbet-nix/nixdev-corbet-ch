@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # Builds the NixOS backend's declared Python environment and proves that an explicitly selected
 # host library is importable. This catches the subtle failure where a Python module is present in
 # the system closure as a separate package but absent from the interpreter's import path.

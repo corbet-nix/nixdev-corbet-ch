@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # THE ADOPTION BAR, checked rather than claimed.
 #
 # A consumer that already runs these tools does not adopt this repository by rewriting its cluster.
